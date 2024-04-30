@@ -9,9 +9,9 @@ const ToggleBulbOnAndOff = () => {
         <>
         <button onClick={toggleDisplay}>Light {light ? 'on':'off'}</button>
         {light ? (
-            <img src="https://media.geeksforgeeks.org/wp-content/uploads/ONbulb.jpg" alt="on"/>
-        ) : (
             <img src="https://media.geeksforgeeks.org/wp-content/uploads/OFFbulb.jpg" alt="off"/>
+        ) : (
+            <img src="https://media.geeksforgeeks.org/wp-content/uploads/ONbulb.jpg" alt="on"/>
         )}
         </>
     );
